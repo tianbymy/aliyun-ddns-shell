@@ -740,6 +740,7 @@ function fun_get_record_id_regx() {
 # 查询域名解析记录值请求
 function fun_query_record_id_send() {
     local query_url="SignatureMethod=HMAC-SHA1&SignatureNonce=$(fun_get_uuid)&SignatureVersion=1.0&SubDomain=$var_second_level_domain.$var_first_level_domain&Timestamp=$var_now_timestamp"
+    fun_wirte_log query_url
     fun_send_request "GET" "DescribeSubDomainRecords" ${query_url} true
 }
 # 更新域名解析记录值请求 fun_update_record "record_id"
