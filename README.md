@@ -72,4 +72,9 @@
 ![启动页面](https://raw.githubusercontent.com/risfeng/aliyun-ddns-shell/master/src/aliyun/screenshot/ss1.jpg)
 ![配置页面](https://raw.githubusercontent.com/risfeng/aliyun-ddns-shell/master/src/aliyun/screenshot/ss2.jpg)
 ![运行页面](https://raw.githubusercontent.com/risfeng/aliyun-ddns-shell/master/src/aliyun/screenshot/ss3.jpg)
+## 配置文件默认保存位置
+```
+/etc/aliyun-ddns/config.cfg
+```
+
 ## 欢迎star给予支持
