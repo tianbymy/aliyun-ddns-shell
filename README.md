@@ -77,4 +77,10 @@
 /etc/aliyun-ddns/config.cfg
 ```
 
+## 注意事项
+```
+服务器时间
+apt-get install ntpdate -y
+ntpdate time.windows.com
+
 ## 欢迎star给予支持
